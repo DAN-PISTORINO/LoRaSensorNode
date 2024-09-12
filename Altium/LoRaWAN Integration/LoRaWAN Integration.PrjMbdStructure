@@ -1,0 +1,14 @@
+Record=DiagramHierarchy|SourceDocument=Node_uP.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=..\Node_Power\Node_Power.PrjPcb
+Record=SubProject|SourceDocument=Node_uP.MbsDoc|ProjectPath=..\Node_Power\Node_Power.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Node_uP.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\Node_uP\Node_uP.PrjPcb
+Record=SubProject|SourceDocument=Node_uP.MbsDoc|ProjectPath=..\Node_uP\Node_uP.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Node.MbsDoc|Kind=Multi-board Schematic Module|Designator=3|Source=..\Node_Sensor\Node_Sensor.PrjPcb
+Record=SubProject|SourceDocument=Node.MbsDoc|ProjectPath=..\Node_Sensor\Node_Sensor.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Node.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=..\Node_Power\Node_Power.PrjPcb
+Record=SubProject|SourceDocument=Node.MbsDoc|ProjectPath=..\Node_Power\Node_Power.PrjPcb
+Record=DiagramHierarchy|SourceDocument=Node.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\Node_uP\Node_uP.PrjPcb
+Record=SubProject|SourceDocument=Node.MbsDoc|ProjectPath=..\Node_uP\Node_uP.PrjPcb
+Record=DiagramHierarchy|SourceDocument=LoRaWan Integration.MbsDoc|Kind=Multi-board Schematic Module|Designator=2|Source=..\OneDrive - University of Florida\Courses\EEL4924C - EE Design 2\LoRaWAN Integration - Fall 2024 Senior Design\Altium\Node\LoRa_Node.PrjPcb
+Record=SubProject|SourceDocument=LoRaWan Integration.MbsDoc|ProjectPath=..\OneDrive - University of Florida\Courses\EEL4924C - EE Design 2\LoRaWAN Integration - Fall 2024 Senior Design\Altium\Node\LoRa_Node.PrjPcb
+Record=DiagramHierarchy|SourceDocument=LoRaWan Integration.MbsDoc|Kind=Multi-board Schematic Module|Designator=1|Source=..\OneDrive - University of Florida\Courses\EEL4924C - EE Design 2\LoRaWAN Integration - Fall 2024 Senior Design\Altium\Hub\LoRa_Hub.PrjPcb
+Record=SubProject|SourceDocument=LoRaWan Integration.MbsDoc|ProjectPath=..\OneDrive - University of Florida\Courses\EEL4924C - EE Design 2\LoRaWAN Integration - Fall 2024 Senior Design\Altium\Hub\LoRa_Hub.PrjPcb
