@@ -1,0 +1,95 @@
+2025-03-06 08:54:14 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.539.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{2,erl_parse,["syntax error before: ","'('"]}}},[{lorawan_admin,parse_fun,1,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin.erl"},{line,422}]},{maps,map_1,2,[{file,"maps.erl"},{line,280}]},{maps,map_1,2,[{file,"maps.erl"},{line,280}]},{maps,map,2,[{file,"maps.erl"},{line,271}]},{lorawan_admin_db_record,write_record,2,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin_db_record.erl"},{line,170}]},{lorawan_admin_db_record,import_records,2,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin_db_record.erl"},{line,166}]},{lorawan_admin_db_record,handle_write,2,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin_db_record.erl"},{line,154}]},{cowboy_rest,call,3,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/cowboy/src/cowboy_rest.erl"},{line,1187}]}]}
+    ancestors: [<0.538.0>,<0.371.0>,<0.370.0>,ranch_sup,<0.167.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.538.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 27
+    reductions: 4307
+  neighbours:
+2025-03-06 08:54:14 =ERROR REPORT====
+Ranch listener http, connection process <0.538.0>, stream 1 had its request process <0.539.0> exit with reason {badmatch,{error,{2,erl_parse,["syntax error before: ","'('"]}}} and stacktrace [{lorawan_admin,parse_fun,1,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin.erl"},{line,422}]},{maps,map_1,2,[{file,"maps.erl"},{line,280}]},{maps,map_1,2,[{file,"maps.erl"},{line,280}]},{maps,map,2,[{file,"maps.erl"},{line,271}]},{lorawan_admin_db_record,write_record,2,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin_db_record.erl"},{line,170}]},{lorawan_admin_db_record,import_records,2,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin_db_record.erl"},{line,166}]},{lorawan_admin_db_record,handle_write,2,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin_db_record.erl"},{line,154}]},{cowboy_rest,call,3,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/cowboy/src/cowboy_rest.erl"},{line,1187}]}]
+2025-03-06 08:54:57 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.552.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{1,erl_parse,["syntax error before: ","'('"]}}},[{lorawan_admin,parse_fun,1,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin.erl"},{line,422}]},{maps,map_1,2,[{file,"maps.erl"},{line,280}]},{maps,map_1,2,[{file,"maps.erl"},{line,280}]},{maps,map,2,[{file,"maps.erl"},{line,271}]},{lorawan_admin_db_record,write_record,2,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin_db_record.erl"},{line,170}]},{lorawan_admin_db_record,import_records,2,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin_db_record.erl"},{line,166}]},{lorawan_admin_db_record,handle_write,2,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin_db_record.erl"},{line,154}]},{cowboy_rest,call,3,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/cowboy/src/cowboy_rest.erl"},{line,1187}]}]}
+    ancestors: [<0.551.0>,<0.371.0>,<0.370.0>,ranch_sup,<0.167.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.551.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 27
+    reductions: 4583
+  neighbours:
+2025-03-06 08:54:57 =ERROR REPORT====
+Ranch listener http, connection process <0.551.0>, stream 1 had its request process <0.552.0> exit with reason {badmatch,{error,{1,erl_parse,["syntax error before: ","'('"]}}} and stacktrace [{lorawan_admin,parse_fun,1,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin.erl"},{line,422}]},{maps,map_1,2,[{file,"maps.erl"},{line,280}]},{maps,map_1,2,[{file,"maps.erl"},{line,280}]},{maps,map,2,[{file,"maps.erl"},{line,271}]},{lorawan_admin_db_record,write_record,2,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin_db_record.erl"},{line,170}]},{lorawan_admin_db_record,import_records,2,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin_db_record.erl"},{line,166}]},{lorawan_admin_db_record,handle_write,2,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin_db_record.erl"},{line,154}]},{cowboy_rest,call,3,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/cowboy/src/cowboy_rest.erl"},{line,1187}]}]
+2025-03-06 08:55:42 =CRASH REPORT====
+  crasher:
+    initial call: cowboy_stream_h:request_process/3
+    pid: <0.558.0>
+    registered_name: []
+    exception error: {{badmatch,{error,{2,erl_parse,["syntax error before: ","'('"]}}},[{lorawan_admin,parse_fun,1,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin.erl"},{line,422}]},{maps,map_1,2,[{file,"maps.erl"},{line,280}]},{maps,map_1,2,[{file,"maps.erl"},{line,280}]},{maps,map,2,[{file,"maps.erl"},{line,271}]},{lorawan_admin_db_record,write_record,2,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin_db_record.erl"},{line,170}]},{lorawan_admin_db_record,import_records,2,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin_db_record.erl"},{line,166}]},{lorawan_admin_db_record,handle_write,2,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin_db_record.erl"},{line,154}]},{cowboy_rest,call,3,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/cowboy/src/cowboy_rest.erl"},{line,1187}]}]}
+    ancestors: [<0.557.0>,<0.371.0>,<0.370.0>,ranch_sup,<0.167.0>]
+    message_queue_len: 0
+    messages: []
+    links: [<0.557.0>]
+    dictionary: []
+    trap_exit: false
+    status: running
+    heap_size: 4185
+    stack_size: 27
+    reductions: 4592
+  neighbours:
+2025-03-06 08:55:42 =ERROR REPORT====
+Ranch listener http, connection process <0.557.0>, stream 1 had its request process <0.558.0> exit with reason {badmatch,{error,{2,erl_parse,["syntax error before: ","'('"]}}} and stacktrace [{lorawan_admin,parse_fun,1,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin.erl"},{line,422}]},{maps,map_1,2,[{file,"maps.erl"},{line,280}]},{maps,map_1,2,[{file,"maps.erl"},{line,280}]},{maps,map,2,[{file,"maps.erl"},{line,271}]},{lorawan_admin_db_record,write_record,2,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin_db_record.erl"},{line,170}]},{lorawan_admin_db_record,import_records,2,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin_db_record.erl"},{line,166}]},{lorawan_admin_db_record,handle_write,2,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/lorawan_server/src/lorawan_admin_db_record.erl"},{line,154}]},{cowboy_rest,call,3,[{file,"/home/travis/build/gotthardp/lorawan-server/_build/default/lib/cowboy/src/cowboy_rest.erl"},{line,1187}]}]
+2025-03-09 13:28:07 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 
+2025-03-09 13:28:12 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 
+2025-03-09 13:28:16 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 
+2025-03-09 13:28:21 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 
+2025-03-09 13:28:26 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 
+2025-03-09 13:28:32 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 
+2025-03-09 13:28:39 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 
+2025-03-09 13:28:50 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 
+2025-03-09 13:29:07 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 
+2025-03-09 13:29:37 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 
+2025-03-09 13:30:32 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 
+2025-03-09 13:31:36 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 
+2025-03-09 13:32:40 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 
+2025-03-09 13:33:44 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 
+2025-03-09 13:34:48 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 
+2025-03-09 13:35:52 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 
+2025-03-09 13:36:57 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 
+2025-03-09 13:38:01 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 
+2025-03-09 13:39:05 =ERROR REPORT====
+** Connection attempt from disallowed node lorawan@lorawan ** 

@@ -1,0 +1,3536 @@
+[
+    {
+        "id": "0b638793613fe5f0",
+        "type": "tab",
+        "label": "Main",
+        "disabled": false,
+        "info": ""
+    },
+    {
+        "id": "0515cbc0f5ed33ee",
+        "type": "tab",
+        "label": "Data Logging",
+        "disabled": false,
+        "info": "",
+        "env": []
+    },
+    {
+        "id": "e7405603949b6db6",
+        "type": "group",
+        "z": "0b638793613fe5f0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f32bfc929426d410",
+            "7162bc892ac04f36",
+            "ca38ed4743585649",
+            "22d6251583729810"
+        ],
+        "x": 554,
+        "y": 759,
+        "w": 792,
+        "h": 82
+    },
+    {
+        "id": "22e1fb27f9a42541",
+        "type": "group",
+        "z": "0b638793613fe5f0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "056bf027416ab22a",
+            "f4c696f791183748",
+            "032a9da5a2489724",
+            "f390af283d38e9df",
+            "818a9ee1bf45ec28",
+            "37f07b5269c76e0f",
+            "b266ab20da2871a2"
+        ],
+        "x": 554,
+        "y": 499,
+        "w": 1072,
+        "h": 142
+    },
+    {
+        "id": "be700ac5b48de6c2",
+        "type": "group",
+        "z": "0b638793613fe5f0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1a7c8f83fa29fe19",
+            "0d9a34baf528f107",
+            "9546210766bc5ac3"
+        ],
+        "x": 554,
+        "y": 299,
+        "w": 552,
+        "h": 122
+    },
+    {
+        "id": "a2b769fd0f25f47f",
+        "type": "group",
+        "z": "0b638793613fe5f0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f416ebdef1929911",
+            "56489e9d64e1d745",
+            "80e3bda6dedeadb2",
+            "944170b45aabcdc2",
+            "1cc00453366369f3",
+            "54ebe1c6098393ae",
+            "6a32bebe531c1494",
+            "e3d4e1dc96684ecd",
+            "8b9927891e0f04bc"
+        ],
+        "x": 574,
+        "y": 999,
+        "w": 1292,
+        "h": 242
+    },
+    {
+        "id": "5ee87abcc0ba2fcd",
+        "type": "group",
+        "z": "0b638793613fe5f0",
+        "g": "6eb320918ec25c9a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "85419c303064e06a",
+            "4eeee21f6b4fdd96",
+            "6ff0ce49e30217ae"
+        ],
+        "x": 1114,
+        "y": 1359,
+        "w": 412,
+        "h": 122
+    },
+    {
+        "id": "df0febe9393bbbe4",
+        "type": "group",
+        "z": "0b638793613fe5f0",
+        "g": "6eb320918ec25c9a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "ea8b4ab74bd383f0",
+            "c06092598a729885",
+            "587243b20b6462dd"
+        ],
+        "x": 1094,
+        "y": 1499,
+        "w": 452,
+        "h": 122
+    },
+    {
+        "id": "1bf88bae0b75334d",
+        "type": "group",
+        "z": "0b638793613fe5f0",
+        "g": "6eb320918ec25c9a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "1fe6ce8a78ca17fc",
+            "5656c1db846492d8",
+            "bc414d32c3506881",
+            "6abf324a1ecad9db"
+        ],
+        "x": 794,
+        "y": 1639,
+        "w": 732,
+        "h": 122
+    },
+    {
+        "id": "127fac4731ba9325",
+        "type": "group",
+        "z": "0b638793613fe5f0",
+        "g": "6eb320918ec25c9a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "268fda7e4993c64f",
+            "2bc791880efd8cdf",
+            "da69ca287a632b0d",
+            "f3e84a8d249d8e0d"
+        ],
+        "x": 794,
+        "y": 1779,
+        "w": 752,
+        "h": 122
+    },
+    {
+        "id": "01a4d449bf9eec0d",
+        "type": "group",
+        "z": "0b638793613fe5f0",
+        "g": "6eb320918ec25c9a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d2c88fdc6145edca",
+            "8e3b6ade8e8850ac",
+            "abd4e619ad286fcc",
+            "68a55a021d8b7487"
+        ],
+        "x": 794,
+        "y": 1919,
+        "w": 772,
+        "h": 122
+    },
+    {
+        "id": "e8f176e16252019e",
+        "type": "group",
+        "z": "0b638793613fe5f0",
+        "g": "6eb320918ec25c9a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "ec2d5758a5a0959e",
+            "2a87f76c0337e3b7",
+            "3ac5410c368b1899",
+            "1d98b11cee3779e9"
+        ],
+        "x": 794,
+        "y": 2059,
+        "w": 792,
+        "h": 122
+    },
+    {
+        "id": "78e6d518f3b8dd0e",
+        "type": "group",
+        "z": "0b638793613fe5f0",
+        "g": "6eb320918ec25c9a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "b2cded00ddfb9f3b",
+            "9530c5e8568b3db8",
+            "43748c1954abcb1b",
+            "d1efdf830bf4fadd"
+        ],
+        "x": 794,
+        "y": 2199,
+        "w": 792,
+        "h": 122
+    },
+    {
+        "id": "41496c3bc654523f",
+        "type": "group",
+        "z": "0b638793613fe5f0",
+        "g": "6eb320918ec25c9a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "5fc7bbf74f5fbd55",
+            "58a3f024e441bebb",
+            "f68f341b70a6fa30",
+            "f2a3b1c4e90eaa12"
+        ],
+        "x": 794,
+        "y": 2339,
+        "w": 732,
+        "h": 122
+    },
+    {
+        "id": "9f72122dc6d2ec50",
+        "type": "group",
+        "z": "0b638793613fe5f0",
+        "g": "6eb320918ec25c9a",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "4f3ad1d6f9978032",
+            "6fa94fc4827c3289",
+            "06da32780fdcca3a",
+            "af7b08193791b6f2"
+        ],
+        "x": 794,
+        "y": 2479,
+        "w": 732,
+        "h": 122
+    },
+    {
+        "id": "72e727f22ef3a886",
+        "type": "group",
+        "z": "0b638793613fe5f0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "6e4bbc3ce6fc8062",
+            "cfea8ab54e97d1e1",
+            "d6da7f942b5649c8",
+            "15765769a019706d"
+        ],
+        "x": 1394,
+        "y": 719,
+        "w": 452,
+        "h": 222
+    },
+    {
+        "id": "54494f4070c4790b",
+        "type": "group",
+        "z": "0515cbc0f5ed33ee",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f6d63ee5ef0b4a3d",
+            "1840521e4b739187",
+            "d02adfc598301c65",
+            "81f38da0d6f2d340",
+            "3de87a9953c96c98",
+            "6134bb11af528835",
+            "739aaba97ac51e93",
+            "acf57a8e1adcca14"
+        ],
+        "x": 634,
+        "y": 579,
+        "w": 592,
+        "h": 222
+    },
+    {
+        "id": "1b9e17617663f7ba",
+        "type": "group",
+        "z": "0515cbc0f5ed33ee",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "f1c15bf2b5df9654",
+            "187689d4d364f82c",
+            "fdec824dc715d92a",
+            "568357f478a68647",
+            "e20979478e8180c5",
+            "60378a849625d2b6",
+            "d0a34d8ddd58f453",
+            "8c6387f393db463b"
+        ],
+        "x": 634,
+        "y": 1179,
+        "w": 592,
+        "h": 242
+    },
+    {
+        "id": "fa022ea1a78ba040",
+        "type": "group",
+        "z": "0515cbc0f5ed33ee",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d822f74ba6750a6c",
+            "16088ac90e9fa8e5",
+            "1bc17ed6eb40d650",
+            "3893bc1a8169eb44"
+        ],
+        "x": 634,
+        "y": 1459,
+        "w": 752,
+        "h": 82
+    },
+    {
+        "id": "3073fa57a6bb9484",
+        "type": "group",
+        "z": "0515cbc0f5ed33ee",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "258205eb98e4f501",
+            "0b839729bfea6a0b",
+            "70f00b416f8e51c4",
+            "f2741128db8bbe5d"
+        ],
+        "x": 634,
+        "y": 839,
+        "w": 772,
+        "h": 82
+    },
+    {
+        "id": "6eb320918ec25c9a",
+        "type": "group",
+        "z": "0b638793613fe5f0",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "d35f22724e79b6b3",
+            "e76d295439c7889b",
+            "5ee87abcc0ba2fcd",
+            "df0febe9393bbbe4",
+            "1bf88bae0b75334d",
+            "127fac4731ba9325",
+            "01a4d449bf9eec0d",
+            "e8f176e16252019e",
+            "78e6d518f3b8dd0e",
+            "41496c3bc654523f",
+            "9f72122dc6d2ec50"
+        ],
+        "x": 574,
+        "y": 1333,
+        "w": 1038,
+        "h": 1294
+    },
+    {
+        "id": "caa3e837dddef227",
+        "type": "group",
+        "z": "0515cbc0f5ed33ee",
+        "style": {
+            "stroke": "#999999",
+            "stroke-opacity": "1",
+            "fill": "none",
+            "fill-opacity": "1",
+            "label": true,
+            "label-position": "nw",
+            "color": "#a4a4a4"
+        },
+        "nodes": [
+            "9015e96b992ca5f3",
+            "558115f79a5c443f",
+            "eaaf632321a65308",
+            "9b258cfe554c5043"
+        ],
+        "x": 634,
+        "y": 979,
+        "w": 352,
+        "h": 142
+    },
+    {
+        "id": "8de7932d.d610d",
+        "type": "mqtt-broker",
+        "name": "LoraMQTT",
+        "broker": "localhost",
+        "port": "1883",
+        "clientid": "",
+        "autoConnect": true,
+        "usetls": false,
+        "compatmode": false,
+        "protocolVersion": "4",
+        "keepalive": "60",
+        "cleansession": true,
+        "autoUnsubscribe": true,
+        "birthTopic": "birth",
+        "birthQos": "0",
+        "birthPayload": "Hello",
+        "birthMsg": {},
+        "closeTopic": "",
+        "closeQos": "0",
+        "closePayload": "",
+        "closeMsg": {},
+        "willTopic": "",
+        "willQos": "0",
+        "willPayload": "",
+        "willMsg": {},
+        "userProps": "",
+        "sessionExpiry": ""
+    },
+    {
+        "id": "644ee4788df2f0af",
+        "type": "ui_tab",
+        "name": "Sensor Data",
+        "icon": "IoT4Ag: Data",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d17ed3e19ce9b506",
+        "type": "ui_tab",
+        "name": "Signal Data",
+        "icon": "IoT4Ag: Signal Data",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "d19a917d65a1575a",
+        "type": "ui_tab",
+        "name": "Home",
+        "icon": "IoT4Ag: Home",
+        "disabled": false,
+        "hidden": false
+    },
+    {
+        "id": "16da006e47cbfd68",
+        "type": "ui_group",
+        "name": "Status",
+        "tab": "644ee4788df2f0af",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fe584e2b3deacb4a",
+        "type": "ui_group",
+        "name": "H2O",
+        "tab": "644ee4788df2f0af",
+        "order": 3,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "dc274e69fd9125e6",
+        "type": "ui_group",
+        "name": "N",
+        "tab": "644ee4788df2f0af",
+        "order": 4,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "818a981aeee289be",
+        "type": "ui_group",
+        "name": "P",
+        "tab": "644ee4788df2f0af",
+        "order": 5,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "71356357e84d0668",
+        "type": "ui_group",
+        "name": "K",
+        "tab": "644ee4788df2f0af",
+        "order": 6,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "0282b777a7bcada3",
+        "type": "ui_group",
+        "name": "EWPT_V",
+        "tab": "644ee4788df2f0af",
+        "order": 7,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c4fc0a521db44831",
+        "type": "ui_group",
+        "name": "LSNR",
+        "tab": "d17ed3e19ce9b506",
+        "order": 8,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9ae1c121a35616d4",
+        "type": "ui_group",
+        "name": "RSSI",
+        "tab": "d17ed3e19ce9b506",
+        "order": 9,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "c73b0ac69321e681",
+        "type": "ui_group",
+        "name": "DataHeader",
+        "tab": "644ee4788df2f0af",
+        "order": 10,
+        "disp": false,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "fee35aa5bf0db5a9",
+        "type": "ui_group",
+        "name": "ActiveEUI",
+        "tab": "d19a917d65a1575a",
+        "order": 1,
+        "disp": true,
+        "width": "6",
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "9678522722c99433",
+        "type": "ui_base",
+        "theme": {
+            "name": "theme-light",
+            "lightTheme": {
+                "default": "#0094CE",
+                "baseColor": "#0094CE",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "darkTheme": {
+                "default": "#097479",
+                "baseColor": "#097479",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif",
+                "edited": false
+            },
+            "customTheme": {
+                "name": "Untitled Theme 1",
+                "default": "#4B7930",
+                "baseColor": "#4B7930",
+                "baseFont": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+            },
+            "themeState": {
+                "base-color": {
+                    "default": "#0094CE",
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-titlebar-backgroundColor": {
+                    "value": "#0094CE",
+                    "edited": false
+                },
+                "page-backgroundColor": {
+                    "value": "#fafafa",
+                    "edited": false
+                },
+                "page-sidebar-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-textColor": {
+                    "value": "#1bbfff",
+                    "edited": false
+                },
+                "group-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "group-backgroundColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "widget-textColor": {
+                    "value": "#111111",
+                    "edited": false
+                },
+                "widget-backgroundColor": {
+                    "value": "#0094ce",
+                    "edited": false
+                },
+                "widget-borderColor": {
+                    "value": "#ffffff",
+                    "edited": false
+                },
+                "base-font": {
+                    "value": "-apple-system,BlinkMacSystemFont,Segoe UI,Roboto,Oxygen-Sans,Ubuntu,Cantarell,Helvetica Neue,sans-serif"
+                }
+            },
+            "angularTheme": {
+                "primary": "indigo",
+                "accents": "blue",
+                "warn": "red",
+                "background": "grey",
+                "palette": "light"
+            }
+        },
+        "site": {
+            "name": "Node-RED Dashboard",
+            "hideToolbar": "false",
+            "allowSwipe": "false",
+            "lockMenu": "false",
+            "allowTempTheme": "true",
+            "dateFormat": "DD/MM/YYYY",
+            "sizes": {
+                "sx": 48,
+                "sy": 48,
+                "gx": 6,
+                "gy": 6,
+                "cx": 6,
+                "cy": 6,
+                "px": 0,
+                "py": 0
+            }
+        }
+    },
+    {
+        "id": "7a5c7f264041b6e7",
+        "type": "MySQLdatabase",
+        "name": "lora_db",
+        "host": "localhost",
+        "port": "3306",
+        "db": "lora_db",
+        "tz": "",
+        "charset": "UTF8"
+    },
+    {
+        "id": "e16906904d206bda",
+        "type": "ui_group",
+        "name": "GPS",
+        "tab": "d17ed3e19ce9b506",
+        "order": 3,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "2d0a47f23c44c5b0",
+        "type": "ui_group",
+        "name": "Locations",
+        "tab": "d17ed3e19ce9b506",
+        "order": 4,
+        "disp": true,
+        "width": 6,
+        "collapse": false,
+        "className": ""
+    },
+    {
+        "id": "f235565bde4d4e25",
+        "type": "ui-base",
+        "name": "My Dashboard",
+        "path": "/dashboard",
+        "appIcon": "",
+        "includeClientData": true,
+        "acceptsClientConfig": [
+            "ui-notification",
+            "ui-control"
+        ],
+        "showPathInSidebar": false,
+        "headerContent": "page",
+        "navigationStyle": "default",
+        "titleBarStyle": "default",
+        "showReconnectNotification": true,
+        "notificationDisplayTime": 1,
+        "showDisconnectNotification": true
+    },
+    {
+        "id": "be7675ebaa15983f",
+        "type": "ui-theme",
+        "name": "Default Theme",
+        "colors": {
+            "surface": "#ffffff",
+            "primary": "#0094CE",
+            "bgPage": "#eeeeee",
+            "groupBg": "#ffffff",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "2a01e9c89be86009",
+        "type": "ui-theme",
+        "name": "Dark Gator",
+        "colors": {
+            "surface": "#f98c5d",
+            "primary": "#0094ce",
+            "bgPage": "#000000",
+            "groupBg": "#000000",
+            "groupOutline": "#cccccc"
+        },
+        "sizes": {
+            "density": "default",
+            "pagePadding": "12px",
+            "groupGap": "12px",
+            "groupBorderRadius": "4px",
+            "widgetGap": "12px"
+        }
+    },
+    {
+        "id": "36d5aed8c47d7159",
+        "type": "ui-page",
+        "name": "LoRa Test",
+        "ui": "f235565bde4d4e25",
+        "path": "/LoRa_Test",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "2a01e9c89be86009",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": 1,
+        "className": "",
+        "visible": true,
+        "disabled": false
+    },
+    {
+        "id": "a218a901914c1383",
+        "type": "ui-group",
+        "name": "Right",
+        "page": "36d5aed8c47d7159",
+        "width": "8",
+        "height": 1,
+        "order": 2,
+        "showTitle": false,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "a67d34fc5f6a6e5e",
+        "type": "ui-group",
+        "name": "GPS Locations",
+        "page": "36d5aed8c47d7159",
+        "width": 6,
+        "height": 1,
+        "order": 1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "c2624d8e8cc35b05",
+        "type": "ui-group",
+        "name": "GPS",
+        "page": "36d5aed8c47d7159",
+        "width": 6,
+        "height": 1,
+        "order": -1,
+        "showTitle": true,
+        "className": "",
+        "visible": "true",
+        "disabled": "false",
+        "groupType": "default"
+    },
+    {
+        "id": "23f328199937043b",
+        "type": "ui-page",
+        "name": "Map Data",
+        "ui": "f235565bde4d4e25",
+        "path": "/maps",
+        "icon": "home",
+        "layout": "grid",
+        "theme": "2a01e9c89be86009",
+        "breakpoints": [
+            {
+                "name": "Default",
+                "px": "0",
+                "cols": "3"
+            },
+            {
+                "name": "Tablet",
+                "px": "576",
+                "cols": "6"
+            },
+            {
+                "name": "Small Desktop",
+                "px": "768",
+                "cols": "9"
+            },
+            {
+                "name": "Desktop",
+                "px": "1024",
+                "cols": "12"
+            }
+        ],
+        "order": -1,
+        "className": "",
+        "visible": "true",
+        "disabled": "false"
+    },
+    {
+        "id": "056bf027416ab22a",
+        "type": "debug",
+        "z": "0b638793613fe5f0",
+        "g": "22e1fb27f9a42541",
+        "name": "Registered Devices",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "topic",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1490,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "f32bfc929426d410",
+        "type": "inject",
+        "z": "0b638793613fe5f0",
+        "g": "e7405603949b6db6",
+        "name": "GET new devices",
+        "props": [
+            {
+                "p": "payload"
+            }
+        ],
+        "repeat": "3600",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 690,
+        "y": 800,
+        "wires": [
+            [
+                "22d6251583729810"
+            ]
+        ]
+    },
+    {
+        "id": "7162bc892ac04f36",
+        "type": "json",
+        "z": "0b638793613fe5f0",
+        "g": "e7405603949b6db6",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1070,
+        "y": 800,
+        "wires": [
+            [
+                "ca38ed4743585649"
+            ]
+        ]
+    },
+    {
+        "id": "ca38ed4743585649",
+        "type": "function",
+        "z": "0b638793613fe5f0",
+        "d": true,
+        "g": "e7405603949b6db6",
+        "name": "Register node",
+        "func": "var msgIn = msg.payload;\nvar devEUIs = global.get(\"devEUIs\");\nmsg.payload = [];\nfor(var item of msgIn){\n    if(devEUIs.indexOf(item.eid)==-1){\n    msg.payload.push({\n        \"appeui\":\"0101010101010101\",\n        \"appkey\":\"2B7E151628AED2A6ABF7158809CF4F3C\",\n        \"deveui\":item.node,\n        \"profile\":\"Node\"\n        \n    });\n    devEUIs.push(item.eid);\n    }\n}\nglobal.set(\"devEUIs\",devEUIs);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": "",
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1240,
+        "y": 800,
+        "wires": [
+            [
+                "d6da7f942b5649c8"
+            ]
+        ]
+    },
+    {
+        "id": "f4c696f791183748",
+        "type": "inject",
+        "z": "0b638793613fe5f0",
+        "g": "22e1fb27f9a42541",
+        "name": "List registered devices",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": "1",
+        "topic": "",
+        "payload": "",
+        "payloadType": "date",
+        "x": 700,
+        "y": 540,
+        "wires": [
+            [
+                "032a9da5a2489724"
+            ]
+        ]
+    },
+    {
+        "id": "032a9da5a2489724",
+        "type": "http request",
+        "z": "0b638793613fe5f0",
+        "g": "22e1fb27f9a42541",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "ignore",
+        "url": "http://localhost:8080/api/devices",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "basic",
+        "senderr": false,
+        "headers": [],
+        "x": 930,
+        "y": 540,
+        "wires": [
+            [
+                "f390af283d38e9df"
+            ]
+        ]
+    },
+    {
+        "id": "0d9a34baf528f107",
+        "type": "debug",
+        "z": "0b638793613fe5f0",
+        "g": "be700ac5b48de6c2",
+        "name": "Broker Status Events",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 340,
+        "wires": []
+    },
+    {
+        "id": "9546210766bc5ac3",
+        "type": "debug",
+        "z": "0b638793613fe5f0",
+        "g": "be700ac5b48de6c2",
+        "name": "Broker Publish Events",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 960,
+        "y": 380,
+        "wires": []
+    },
+    {
+        "id": "22d6251583729810",
+        "type": "http request",
+        "z": "0b638793613fe5f0",
+        "g": "e7405603949b6db6",
+        "name": "",
+        "method": "GET",
+        "ret": "txt",
+        "paytoqs": "body",
+        "url": "http://localhost:8080/api/events?_filters={\"text\":\"unknown_deveui\"}",
+        "tls": "",
+        "persist": false,
+        "proxy": "",
+        "insecureHTTPParser": false,
+        "authType": "basic",
+        "senderr": false,
+        "headers": [],
+        "x": 890,
+        "y": 800,
+        "wires": [
+            [
+                "7162bc892ac04f36",
+                "f390af283d38e9df"
+            ]
+        ]
+    },
+    {
+        "id": "f416ebdef1929911",
+        "type": "change",
+        "z": "0b638793613fe5f0",
+        "g": "a2b769fd0f25f47f",
+        "name": "DECREASE",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.data",
+                "pt": "msg",
+                "to": "44",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1110,
+        "y": 1120,
+        "wires": [
+            [
+                "54ebe1c6098393ae"
+            ]
+        ]
+    },
+    {
+        "id": "56489e9d64e1d745",
+        "type": "mqtt out",
+        "z": "0b638793613fe5f0",
+        "g": "a2b769fd0f25f47f",
+        "name": "",
+        "topic": "tx",
+        "qos": "",
+        "retain": "",
+        "respTopic": "",
+        "contentType": "",
+        "userProps": "",
+        "correl": "",
+        "expiry": "",
+        "broker": "8de7932d.d610d",
+        "x": 1750,
+        "y": 1120,
+        "wires": []
+    },
+    {
+        "id": "80e3bda6dedeadb2",
+        "type": "switch",
+        "z": "0b638793613fe5f0",
+        "g": "a2b769fd0f25f47f",
+        "name": "COMPARE",
+        "property": "payload.rssi",
+        "propertyType": "msg",
+        "rules": [
+            {
+                "t": "lt",
+                "v": "7",
+                "vt": "num"
+            },
+            {
+                "t": "gt",
+                "v": "7",
+                "vt": "num"
+            },
+            {
+                "t": "eq",
+                "v": "7",
+                "vt": "num"
+            }
+        ],
+        "checkall": "true",
+        "repair": false,
+        "outputs": 3,
+        "x": 890,
+        "y": 1120,
+        "wires": [
+            [
+                "944170b45aabcdc2"
+            ],
+            [
+                "f416ebdef1929911"
+            ],
+            [
+                "1cc00453366369f3"
+            ]
+        ]
+    },
+    {
+        "id": "944170b45aabcdc2",
+        "type": "change",
+        "z": "0b638793613fe5f0",
+        "g": "a2b769fd0f25f47f",
+        "name": "INCREASE",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.data",
+                "pt": "msg",
+                "to": "49",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1110,
+        "y": 1040,
+        "wires": [
+            [
+                "54ebe1c6098393ae"
+            ]
+        ]
+    },
+    {
+        "id": "1cc00453366369f3",
+        "type": "change",
+        "z": "0b638793613fe5f0",
+        "g": "a2b769fd0f25f47f",
+        "name": "EQUAL",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload.data",
+                "pt": "msg",
+                "to": "45",
+                "tot": "str"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1100,
+        "y": 1200,
+        "wires": [
+            [
+                "54ebe1c6098393ae"
+            ]
+        ]
+    },
+    {
+        "id": "54ebe1c6098393ae",
+        "type": "change",
+        "z": "0b638793613fe5f0",
+        "g": "a2b769fd0f25f47f",
+        "name": "",
+        "rules": [
+            {
+                "t": "delete",
+                "p": "payload.text",
+                "pt": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 1370,
+        "y": 1120,
+        "wires": [
+            [
+                "6a32bebe531c1494"
+            ]
+        ]
+    },
+    {
+        "id": "6a32bebe531c1494",
+        "type": "json",
+        "z": "0b638793613fe5f0",
+        "g": "a2b769fd0f25f47f",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1590,
+        "y": 1120,
+        "wires": [
+            [
+                "56489e9d64e1d745",
+                "8b9927891e0f04bc"
+            ]
+        ]
+    },
+    {
+        "id": "e3d4e1dc96684ecd",
+        "type": "mqtt in",
+        "z": "0b638793613fe5f0",
+        "g": "a2b769fd0f25f47f",
+        "name": "",
+        "topic": "msg.payload.rssi",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "8de7932d.d610d",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 680,
+        "y": 1120,
+        "wires": [
+            [
+                "80e3bda6dedeadb2"
+            ]
+        ]
+    },
+    {
+        "id": "ca28da0795e81188",
+        "type": "comment",
+        "z": "0b638793613fe5f0",
+        "name": "Generates list of registered devices",
+        "info": "",
+        "x": 700,
+        "y": 480,
+        "wires": []
+    },
+    {
+        "id": "8f4557b96580d1d5",
+        "type": "comment",
+        "z": "0b638793613fe5f0",
+        "name": "Checks for new devices to register",
+        "info": "",
+        "x": 700,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "b9ec29b5f399bd4f",
+        "type": "comment",
+        "z": "0b638793613fe5f0",
+        "name": "Sends return value based on received RSSI",
+        "info": "",
+        "x": 730,
+        "y": 1000,
+        "wires": []
+    },
+    {
+        "id": "8404b1e2483a0c2b",
+        "type": "comment",
+        "z": "0b638793613fe5f0",
+        "name": "Establishes communication to Network Server",
+        "info": "",
+        "x": 730,
+        "y": 280,
+        "wires": []
+    },
+    {
+        "id": "d35f22724e79b6b3",
+        "type": "debug",
+        "z": "0b638793613fe5f0",
+        "g": "6eb320918ec25c9a",
+        "name": "MQTT Data",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 870,
+        "y": 1420,
+        "wires": []
+    },
+    {
+        "id": "e76d295439c7889b",
+        "type": "mqtt in",
+        "z": "0b638793613fe5f0",
+        "g": "6eb320918ec25c9a",
+        "name": "",
+        "topic": "data",
+        "qos": "2",
+        "datatype": "json",
+        "broker": "8de7932d.d610d",
+        "nl": false,
+        "rap": false,
+        "inputs": 0,
+        "x": 650,
+        "y": 1620,
+        "wires": [
+            [
+                "d35f22724e79b6b3",
+                "85419c303064e06a",
+                "1fe6ce8a78ca17fc",
+                "268fda7e4993c64f",
+                "d2c88fdc6145edca",
+                "1d98b11cee3779e9",
+                "b2cded00ddfb9f3b",
+                "f2a3b1c4e90eaa12",
+                "ea8b4ab74bd383f0",
+                "af7b08193791b6f2"
+            ]
+        ]
+    },
+    {
+        "id": "85419c303064e06a",
+        "type": "function",
+        "z": "0b638793613fe5f0",
+        "g": "5ee87abcc0ba2fcd",
+        "name": "Get LED Status",
+        "func": "// const payloadString = JSON.stringify(msg.payload);\n// const dataString = payloadString.slice(23, 49);\n// // string parse\n// msg.payload = parseInt(dataString.slice(0, 2), 16);\nmsg.payload = parseInt(msg.payload.led);\n//return payloadString;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1220,
+        "y": 1440,
+        "wires": [
+            [
+                "4eeee21f6b4fdd96",
+                "6ff0ce49e30217ae"
+            ]
+        ]
+    },
+    {
+        "id": "4eeee21f6b4fdd96",
+        "type": "ui_toast",
+        "z": "0b638793613fe5f0",
+        "g": "5ee87abcc0ba2fcd",
+        "position": "top right",
+        "displayTime": "3",
+        "highlight": "",
+        "sendall": true,
+        "outputs": 0,
+        "ok": "OK",
+        "cancel": "",
+        "raw": false,
+        "className": "",
+        "topic": "",
+        "name": "LED Status",
+        "x": 1410,
+        "y": 1440,
+        "wires": []
+    },
+    {
+        "id": "6ff0ce49e30217ae",
+        "type": "debug",
+        "z": "0b638793613fe5f0",
+        "g": "5ee87abcc0ba2fcd",
+        "name": "debug LED",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1410,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "ea8b4ab74bd383f0",
+        "type": "function",
+        "z": "0b638793613fe5f0",
+        "g": "df0febe9393bbbe4",
+        "name": "Get Battery Status",
+        "func": "/*const payloadString = JSON.stringify(msg.payload);\nconst dataString = payloadString.slice(23, 49);\n// string parse\nmsg.payload = parseInt(dataString.slice(4, 6), 16);\n*/\nmsg.payload = parseInt(msg.payload.battery);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1210,
+        "y": 1580,
+        "wires": [
+            [
+                "c06092598a729885",
+                "587243b20b6462dd"
+            ]
+        ]
+    },
+    {
+        "id": "c06092598a729885",
+        "type": "ui_gauge",
+        "z": "0b638793613fe5f0",
+        "g": "df0febe9393bbbe4",
+        "name": "",
+        "group": "16da006e47cbfd68",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Battery",
+        "label": "units",
+        "format": "{{value}}",
+        "min": 0,
+        "max": "255",
+        "colors": [
+            "#960000",
+            "#c8c800",
+            "#009600"
+        ],
+        "seg1": "100",
+        "seg2": "200",
+        "diff": false,
+        "className": "",
+        "x": 1400,
+        "y": 1580,
+        "wires": []
+    },
+    {
+        "id": "587243b20b6462dd",
+        "type": "debug",
+        "z": "0b638793613fe5f0",
+        "g": "df0febe9393bbbe4",
+        "name": "debug BatStat",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1420,
+        "y": 1540,
+        "wires": []
+    },
+    {
+        "id": "1fe6ce8a78ca17fc",
+        "type": "function",
+        "z": "0b638793613fe5f0",
+        "g": "1bf88bae0b75334d",
+        "name": "Get H2O Data",
+        "func": "// const payloadString = JSON.stringify(msg.payload);\n// const dataString = payloadString.slice(23, 49);\n\n// // string parse\n// msg.payload = parseFloat(((parseInt(dataString.slice(6, 10), 16) / 2700) * 100).toFixed(2));\nmsg.payload = parseFloat(msg.payload.h2o);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 900,
+        "y": 1720,
+        "wires": [
+            [
+                "5656c1db846492d8",
+                "6abf324a1ecad9db",
+                "bc414d32c3506881"
+            ]
+        ]
+    },
+    {
+        "id": "5656c1db846492d8",
+        "type": "ui_chart",
+        "z": "0b638793613fe5f0",
+        "g": "1bf88bae0b75334d",
+        "name": "",
+        "group": "fe584e2b3deacb4a",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "H2O Chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "100",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1110,
+        "y": 1720,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "bc414d32c3506881",
+        "type": "debug",
+        "z": "0b638793613fe5f0",
+        "g": "1bf88bae0b75334d",
+        "name": "debug H2O",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1110,
+        "y": 1680,
+        "wires": []
+    },
+    {
+        "id": "6abf324a1ecad9db",
+        "type": "ui_gauge",
+        "z": "0b638793613fe5f0",
+        "g": "1bf88bae0b75334d",
+        "name": "",
+        "group": "fe584e2b3deacb4a",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "H2O Gauge",
+        "label": "units",
+        "format": "{{value}} %",
+        "min": 0,
+        "max": "100",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "1500",
+        "seg2": "4500",
+        "diff": false,
+        "className": "",
+        "x": 1430,
+        "y": 1720,
+        "wires": []
+    },
+    {
+        "id": "268fda7e4993c64f",
+        "type": "function",
+        "z": "0b638793613fe5f0",
+        "g": "127fac4731ba9325",
+        "name": "Get N Data",
+        "func": "// const payloadString = JSON.stringify(msg.payload);\n// const dataString = payloadString.slice(23, 49);\n\n// // string parse\n// msg.payload = parseInt(dataString.slice(10, 14), 16);\nmsg.payload = parseInt(msg.payload.n);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 1860,
+        "wires": [
+            [
+                "2bc791880efd8cdf",
+                "f3e84a8d249d8e0d",
+                "da69ca287a632b0d"
+            ]
+        ]
+    },
+    {
+        "id": "2bc791880efd8cdf",
+        "type": "ui_chart",
+        "z": "0b638793613fe5f0",
+        "g": "127fac4731ba9325",
+        "name": "",
+        "group": "dc274e69fd9125e6",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Nitrogen Chart (mg/kg of soil)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "65535",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1160,
+        "y": 1860,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "da69ca287a632b0d",
+        "type": "debug",
+        "z": "0b638793613fe5f0",
+        "g": "127fac4731ba9325",
+        "name": "debug N",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 1820,
+        "wires": []
+    },
+    {
+        "id": "f3e84a8d249d8e0d",
+        "type": "ui_gauge",
+        "z": "0b638793613fe5f0",
+        "g": "127fac4731ba9325",
+        "name": "",
+        "group": "dc274e69fd9125e6",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Nitrogen Gauge",
+        "label": "units",
+        "format": "{{value}} mg/kg",
+        "min": 0,
+        "max": "65535",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "20000",
+        "seg2": "40000",
+        "diff": false,
+        "className": "",
+        "x": 1440,
+        "y": 1860,
+        "wires": []
+    },
+    {
+        "id": "d2c88fdc6145edca",
+        "type": "function",
+        "z": "0b638793613fe5f0",
+        "g": "01a4d449bf9eec0d",
+        "name": "Get P Data",
+        "func": "// const payloadString = JSON.stringify(msg.payload);\n// const dataString = payloadString.slice(23, 49);\n\n// // string parse\n// msg.payload = parseInt(dataString.slice(14, 18), 16);\nmsg.payload = parseInt(msg.payload.p);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 2000,
+        "wires": [
+            [
+                "8e3b6ade8e8850ac",
+                "68a55a021d8b7487",
+                "abd4e619ad286fcc"
+            ]
+        ]
+    },
+    {
+        "id": "8e3b6ade8e8850ac",
+        "type": "ui_chart",
+        "z": "0b638793613fe5f0",
+        "g": "01a4d449bf9eec0d",
+        "name": "",
+        "group": "818a981aeee289be",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Phosphorus Chart (mg/kg of soil)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "65535",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1180,
+        "y": 2000,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "abd4e619ad286fcc",
+        "type": "debug",
+        "z": "0b638793613fe5f0",
+        "g": "01a4d449bf9eec0d",
+        "name": "debug P",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 1960,
+        "wires": []
+    },
+    {
+        "id": "68a55a021d8b7487",
+        "type": "ui_gauge",
+        "z": "0b638793613fe5f0",
+        "g": "01a4d449bf9eec0d",
+        "name": "",
+        "group": "818a981aeee289be",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Phosphorus Gauge",
+        "label": "units",
+        "format": "{{value}} mg/kg",
+        "min": 0,
+        "max": "65535",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "20000",
+        "seg2": "40000",
+        "diff": false,
+        "className": "",
+        "x": 1450,
+        "y": 2000,
+        "wires": []
+    },
+    {
+        "id": "ec2d5758a5a0959e",
+        "type": "debug",
+        "z": "0b638793613fe5f0",
+        "g": "e8f176e16252019e",
+        "name": "debug K",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1100,
+        "y": 2100,
+        "wires": []
+    },
+    {
+        "id": "2a87f76c0337e3b7",
+        "type": "ui_gauge",
+        "z": "0b638793613fe5f0",
+        "g": "e8f176e16252019e",
+        "name": "",
+        "group": "71356357e84d0668",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "Potassium(K) Gauge",
+        "label": "units",
+        "format": "{{value}} mg/kg",
+        "min": 0,
+        "max": "65535",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "20000",
+        "seg2": "40000",
+        "diff": false,
+        "className": "",
+        "x": 1460,
+        "y": 2140,
+        "wires": []
+    },
+    {
+        "id": "3ac5410c368b1899",
+        "type": "ui_chart",
+        "z": "0b638793613fe5f0",
+        "g": "e8f176e16252019e",
+        "name": "",
+        "group": "71356357e84d0668",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "Potassium(K) Chart (mg/kg of soil)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "65535",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1180,
+        "y": 2140,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "1d98b11cee3779e9",
+        "type": "function",
+        "z": "0b638793613fe5f0",
+        "g": "e8f176e16252019e",
+        "name": "Get K Data",
+        "func": "// const payloadString = JSON.stringify(msg.payload);\n// const dataString = payloadString.slice(23, 49);\n\n// // string parse\n// msg.payload = parseInt(dataString.slice(18, 22), 16);\n\nmsg.payload = parseInt(msg.payload.k);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 2140,
+        "wires": [
+            [
+                "3ac5410c368b1899",
+                "2a87f76c0337e3b7",
+                "ec2d5758a5a0959e"
+            ]
+        ]
+    },
+    {
+        "id": "b2cded00ddfb9f3b",
+        "type": "function",
+        "z": "0b638793613fe5f0",
+        "g": "78e6d518f3b8dd0e",
+        "name": "Get EWPT Voltage Data",
+        "func": "// const payloadString = JSON.stringify(msg.payload);\n// const dataString = payloadString.slice(23, 49);\n\n// // string parse\n// msg.payload = parseInt(dataString.slice(22), 16);\n\nmsg.payload = parseFloat(msg.payload.ewpt);\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 930,
+        "y": 2280,
+        "wires": [
+            [
+                "43748c1954abcb1b",
+                "d1efdf830bf4fadd",
+                "9530c5e8568b3db8"
+            ]
+        ]
+    },
+    {
+        "id": "9530c5e8568b3db8",
+        "type": "debug",
+        "z": "0b638793613fe5f0",
+        "g": "78e6d518f3b8dd0e",
+        "name": "debug EWPT_V",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 2240,
+        "wires": []
+    },
+    {
+        "id": "43748c1954abcb1b",
+        "type": "ui_chart",
+        "z": "0b638793613fe5f0",
+        "g": "78e6d518f3b8dd0e",
+        "name": "",
+        "group": "0282b777a7bcada3",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "EWPT Voltage Chart (mV)",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "65535",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1190,
+        "y": 2280,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d1efdf830bf4fadd",
+        "type": "ui_gauge",
+        "z": "0b638793613fe5f0",
+        "g": "78e6d518f3b8dd0e",
+        "name": "",
+        "group": "0282b777a7bcada3",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "EWPT Voltage Gauge",
+        "label": "units",
+        "format": "{{value}} mV",
+        "min": 0,
+        "max": "65530",
+        "colors": [
+            "#00b500",
+            "#e6e600",
+            "#ca3838"
+        ],
+        "seg1": "20000",
+        "seg2": "40000",
+        "diff": false,
+        "className": "",
+        "x": 1460,
+        "y": 2280,
+        "wires": []
+    },
+    {
+        "id": "5fc7bbf74f5fbd55",
+        "type": "ui_chart",
+        "z": "0b638793613fe5f0",
+        "g": "41496c3bc654523f",
+        "name": "",
+        "group": "c4fc0a521db44831",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "LSNR Chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "0",
+        "ymax": "20",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "60",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1150,
+        "y": 2420,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "58a3f024e441bebb",
+        "type": "debug",
+        "z": "0b638793613fe5f0",
+        "g": "41496c3bc654523f",
+        "name": "debug LSNR",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1150,
+        "y": 2380,
+        "wires": []
+    },
+    {
+        "id": "f68f341b70a6fa30",
+        "type": "ui_gauge",
+        "z": "0b638793613fe5f0",
+        "g": "41496c3bc654523f",
+        "name": "",
+        "group": "c4fc0a521db44831",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "LSNR Gauge",
+        "label": "units",
+        "format": "{{value}} dB",
+        "min": 0,
+        "max": "20",
+        "colors": [
+            "#ca3838",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "7",
+        "seg2": "14",
+        "diff": false,
+        "className": "",
+        "x": 1430,
+        "y": 2420,
+        "wires": []
+    },
+    {
+        "id": "f2a3b1c4e90eaa12",
+        "type": "function",
+        "z": "0b638793613fe5f0",
+        "g": "41496c3bc654523f",
+        "name": "Get LSNR",
+        "func": "/* const payloadString = JSON.stringify(msg.payload);\nvar dataString = \"\";\n\nif(payloadString.indexOf(\".\")){\n    dataString = payloadString.slice(payloadString.indexOf(\".\") - 2, payloadString.indexOf(\".\") + 2);\n    msg.payload = parseFloat(dataString);\n}\nelse{\n    dataString = payloadString.slice(99, 101);\n    msg.payload = parseInt(dataString, 10);\n}\n*/\nmsg.payload = parseFloat(msg.payload.lsnr);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 2420,
+        "wires": [
+            [
+                "58a3f024e441bebb",
+                "5fc7bbf74f5fbd55",
+                "f68f341b70a6fa30"
+            ]
+        ]
+    },
+    {
+        "id": "4f3ad1d6f9978032",
+        "type": "debug",
+        "z": "0b638793613fe5f0",
+        "g": "9f72122dc6d2ec50",
+        "name": "debug RSSI",
+        "active": false,
+        "tosidebar": true,
+        "console": true,
+        "tostatus": true,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "payload",
+        "statusType": "auto",
+        "x": 1160,
+        "y": 2520,
+        "wires": []
+    },
+    {
+        "id": "6fa94fc4827c3289",
+        "type": "ui_chart",
+        "z": "0b638793613fe5f0",
+        "g": "9f72122dc6d2ec50",
+        "name": "",
+        "group": "9ae1c121a35616d4",
+        "order": 3,
+        "width": 0,
+        "height": 0,
+        "label": "RSSI Chart",
+        "chartType": "line",
+        "legend": "false",
+        "xformat": "HH:mm:ss",
+        "interpolate": "linear",
+        "nodata": "",
+        "dot": false,
+        "ymin": "-150",
+        "ymax": "0",
+        "removeOlder": "30",
+        "removeOlderPoints": "",
+        "removeOlderUnit": "86400",
+        "cutout": 0,
+        "useOneColor": false,
+        "useUTC": false,
+        "colors": [
+            "#1f77b4",
+            "#aec7e8",
+            "#ff7f0e",
+            "#2ca02c",
+            "#98df8a",
+            "#d62728",
+            "#ff9896",
+            "#9467bd",
+            "#c5b0d5"
+        ],
+        "outputs": 1,
+        "useDifferentColor": false,
+        "className": "",
+        "x": 1150,
+        "y": 2560,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "06da32780fdcca3a",
+        "type": "ui_gauge",
+        "z": "0b638793613fe5f0",
+        "g": "9f72122dc6d2ec50",
+        "name": "",
+        "group": "9ae1c121a35616d4",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "gtype": "gage",
+        "title": "RSSI Gauge",
+        "label": "units",
+        "format": "{{value}} dBm",
+        "min": "-120",
+        "max": "0",
+        "colors": [
+            "#ca3838",
+            "#e6e600",
+            "#00b500"
+        ],
+        "seg1": "-80",
+        "seg2": "-40",
+        "diff": false,
+        "className": "",
+        "x": 1430,
+        "y": 2560,
+        "wires": []
+    },
+    {
+        "id": "af7b08193791b6f2",
+        "type": "function",
+        "z": "0b638793613fe5f0",
+        "g": "9f72122dc6d2ec50",
+        "name": "Get RSSI",
+        "func": "/* const payloadString = JSON.stringify(msg.payload);\nvar dataString = \"\";\n\nif (payloadString.indexOf(\"-\")) {\n    dataString = payloadString.slice(payloadString.indexOf(\"-\"), payloadString.indexOf(\"-\") + 3);\n}\nelse if (payloadString.indexOf(\".\")){\n    dataString = payloadString.slice(113, 115);\n}\nelse{\n    dataString = payloadString.slice(111, 113);\n}\n\nmsg.payload = parseInt(dataString, 10);\n*/\n\nmsg.payload = parseFloat(msg.payload.rssi);\n\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 880,
+        "y": 2560,
+        "wires": [
+            [
+                "6fa94fc4827c3289",
+                "06da32780fdcca3a",
+                "4f3ad1d6f9978032"
+            ]
+        ]
+    },
+    {
+        "id": "ceda3bb628aa75c6",
+        "type": "comment",
+        "z": "0b638793613fe5f0",
+        "name": "The AppKey is inside this function",
+        "info": "",
+        "x": 990,
+        "y": 740,
+        "wires": []
+    },
+    {
+        "id": "6e4bbc3ce6fc8062",
+        "type": "ui_text_input",
+        "z": "0b638793613fe5f0",
+        "d": true,
+        "g": "72e727f22ef3a886",
+        "name": "",
+        "label": "Showing data from",
+        "tooltip": "",
+        "group": "c73b0ac69321e681",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "mode": "text",
+        "delay": 300,
+        "topic": "payload",
+        "sendOnBlur": false,
+        "className": "",
+        "topicType": "msg",
+        "x": 1710,
+        "y": 820,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "cfea8ab54e97d1e1",
+        "type": "ui_dropdown",
+        "z": "0b638793613fe5f0",
+        "d": true,
+        "g": "72e727f22ef3a886",
+        "name": "",
+        "label": "Active Device",
+        "tooltip": "Select the device to display its record",
+        "place": "Select Device EUI",
+        "group": "fee35aa5bf0db5a9",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "payload",
+        "topicType": "msg",
+        "className": "",
+        "x": 1680,
+        "y": 760,
+        "wires": [
+            [
+                "6e4bbc3ce6fc8062"
+            ]
+        ]
+    },
+    {
+        "id": "8b9927891e0f04bc",
+        "type": "debug",
+        "z": "0b638793613fe5f0",
+        "g": "a2b769fd0f25f47f",
+        "name": "Debug Tx",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1760,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "d6da7f942b5649c8",
+        "type": "function",
+        "z": "0b638793613fe5f0",
+        "d": true,
+        "g": "72e727f22ef3a886",
+        "name": "dropdown",
+        "func": "var options = [];\n\nfor (let i = 0; i < msg.payload.length; i++) {\n    const el = msg.payload[i];\n    options[i] = el.profile + \": \" + el.node;\n}\nmsg.options = options;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1480,
+        "y": 760,
+        "wires": [
+            [
+                "cfea8ab54e97d1e1",
+                "15765769a019706d"
+            ]
+        ]
+    },
+    {
+        "id": "15765769a019706d",
+        "type": "debug",
+        "z": "0b638793613fe5f0",
+        "d": true,
+        "g": "72e727f22ef3a886",
+        "name": "Debug Device Menu",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1700,
+        "y": 900,
+        "wires": []
+    },
+    {
+        "id": "f390af283d38e9df",
+        "type": "json",
+        "z": "0b638793613fe5f0",
+        "g": "22e1fb27f9a42541",
+        "name": "",
+        "property": "payload",
+        "action": "",
+        "pretty": false,
+        "x": 1070,
+        "y": 600,
+        "wires": [
+            [
+                "d6da7f942b5649c8",
+                "818a9ee1bf45ec28",
+                "b266ab20da2871a2"
+            ]
+        ]
+    },
+    {
+        "id": "b0ae06b462b485ed",
+        "type": "comment",
+        "z": "0b638793613fe5f0",
+        "name": "Creates and updates Node Selection Box",
+        "info": "",
+        "x": 1560,
+        "y": 700,
+        "wires": []
+    },
+    {
+        "id": "1a7c8f83fa29fe19",
+        "type": "aedes broker",
+        "z": "0b638793613fe5f0",
+        "g": "be700ac5b48de6c2",
+        "name": "",
+        "mqtt_port": 1883,
+        "mqtt_ws_bind": "port",
+        "mqtt_ws_port": "",
+        "mqtt_ws_path": "",
+        "cert": "",
+        "key": "",
+        "certname": "",
+        "keyname": "",
+        "persistence_bind": "memory",
+        "dburl": "",
+        "usetls": false,
+        "x": 670,
+        "y": 360,
+        "wires": [
+            [
+                "0d9a34baf528f107"
+            ],
+            [
+                "9546210766bc5ac3"
+            ]
+        ]
+    },
+    {
+        "id": "37f07b5269c76e0f",
+        "type": "mysql",
+        "z": "0b638793613fe5f0",
+        "g": "22e1fb27f9a42541",
+        "mydb": "7a5c7f264041b6e7",
+        "name": "lora_log",
+        "x": 1460,
+        "y": 600,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "818a9ee1bf45ec28",
+        "type": "function",
+        "z": "0b638793613fe5f0",
+        "g": "22e1fb27f9a42541",
+        "name": "new devices",
+        "func": "var sql = \" \";\nvar count = 0;\n// msg.payload.forEach(function(dev) {\n//     // var node = {\n//     //     payload: {\n//     //         devaddr: dev.node,\n//     //         deveui: dev.deveui,\n//     //         last_seen: dev.last_joins[0].time\n//     //     }\n//     // }\n//     sql = sql + `devaddr='${node.payload.devaddr}', deveui='${node.payload.deveui}', last_seen='${node.payload.last_seen.replace(\"T\", \" \").replace(\"Z\", \"\")}' AS new `\n//     sql = sql + \"ON DUPLICATE KEY UPDATE \";\n//     sql = sql + `deveui=new.deveui, last_seen=new.last_seen;\\n`;\n//     count++;\n// });\nsql = \" INSERT INTO nodes (devaddr, deveui, created_at) VALUES \";\n\nmsg.payload.forEach(function(dev) {\n    const now = new Date();\n    sql = sql + `('${dev.node}', '${dev.deveui}', '` + String(now.getFullYear()).padStart(2, \"0\") + \"-\" + String(now.getMonth()).padStart(2, \"0\") + \"-\" + String(now.getDate()).padStart(2, \"0\") + \" \" + String(now.getHours()).padStart(2, \"0\") + \":\" + String(now.getMinutes()).padStart(2, \"0\") + \":\" + String(now.getSeconds()).padStart(2, \"0\") +`'), `;\n    count++;\n});\nsql = sql.substring(0, sql.lastIndexOf(\",\"));\nsql = sql + \" ON DUPLICATE KEY UPDATE \";\nsql = sql + `deveui=VALUES(deveui), created_at=VALUES(created_at);\\n`;\n\nif (count>0) {\n    msg.topic = sql;\n}\nelse {\n    msg.topic = \"SELECT * FROM nodes;\";\n}\nmsg.payload = \"\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1270,
+        "y": 600,
+        "wires": [
+            [
+                "37f07b5269c76e0f",
+                "056bf027416ab22a"
+            ]
+        ]
+    },
+    {
+        "id": "b266ab20da2871a2",
+        "type": "debug",
+        "z": "0b638793613fe5f0",
+        "g": "22e1fb27f9a42541",
+        "name": "Registered Devices JSON",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1230,
+        "y": 540,
+        "wires": []
+    },
+    {
+        "id": "826e79be6a5a0e68",
+        "type": "comment",
+        "z": "0b638793613fe5f0",
+        "name": "Real-time Dashboard",
+        "info": "Active Data Display",
+        "x": 680,
+        "y": 1320,
+        "wires": []
+    },
+    {
+        "id": "f1c15bf2b5df9654",
+        "type": "mysql",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "g": "1b9e17617663f7ba",
+        "mydb": "7a5c7f264041b6e7",
+        "name": "getView",
+        "x": 980,
+        "y": 1380,
+        "wires": [
+            [
+                "60378a849625d2b6"
+            ]
+        ]
+    },
+    {
+        "id": "187689d4d364f82c",
+        "type": "function",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "g": "1b9e17617663f7ba",
+        "name": "getViewSQL_Data",
+        "func": "var sql = `SELECT datetime, deveui, freq, lsnr, rssi, ewpt FROM node_data WHERE lat_long = CAST('${msg.payload}' AS CHAR CHARACTER SET utf8mb4)`;\nmsg.topic = sql;\nmsg.payload = [];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 770,
+        "y": 1380,
+        "wires": [
+            [
+                "f1c15bf2b5df9654",
+                "71e5c84b775ebb94"
+            ]
+        ]
+    },
+    {
+        "id": "fdec824dc715d92a",
+        "type": "mysql",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "g": "1b9e17617663f7ba",
+        "mydb": "7a5c7f264041b6e7",
+        "name": "getGPS",
+        "x": 1140,
+        "y": 1220,
+        "wires": [
+            [
+                "20ba82e10e3c4df5",
+                "8c6387f393db463b"
+            ]
+        ]
+    },
+    {
+        "id": "568357f478a68647",
+        "type": "function",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "g": "1b9e17617663f7ba",
+        "name": "getGPS_Pairs",
+        "func": "var sql = \"SELECT DISTINCT CONCAT(Latitude, ':', Longitude) AS lat_long_pair FROM data;\";\nmsg.topic = sql;\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 920,
+        "y": 1220,
+        "wires": [
+            [
+                "fdec824dc715d92a"
+            ]
+        ]
+    },
+    {
+        "id": "e20979478e8180c5",
+        "type": "ui_ui_control",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "g": "1b9e17617663f7ba",
+        "name": "",
+        "events": "all",
+        "x": 720,
+        "y": 1220,
+        "wires": [
+            [
+                "568357f478a68647"
+            ]
+        ]
+    },
+    {
+        "id": "60378a849625d2b6",
+        "type": "ui-table",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "g": "1b9e17617663f7ba",
+        "group": "a218a901914c1383",
+        "name": "",
+        "label": "",
+        "order": 2,
+        "width": 0,
+        "height": 0,
+        "maxrows": 0,
+        "passthru": false,
+        "autocols": true,
+        "showSearch": true,
+        "selectionType": "click",
+        "columns": [],
+        "mobileBreakpoint": "sm",
+        "mobileBreakpointType": "defaults",
+        "action": "replace",
+        "x": 1150,
+        "y": 1380,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d0a34d8ddd58f453",
+        "type": "ui-dropdown",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "g": "1b9e17617663f7ba",
+        "group": "a67d34fc5f6a6e5e",
+        "name": "GPS Locations",
+        "label": "Select Location",
+        "tooltip": "",
+        "order": 1,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "multiple": false,
+        "chips": true,
+        "clearable": true,
+        "options": [
+            {
+                "label": "",
+                "value": "",
+                "type": "str"
+            }
+        ],
+        "payload": "",
+        "topic": "topic",
+        "topicType": "msg",
+        "className": "",
+        "typeIsComboBox": true,
+        "msgTrigger": "onChange",
+        "x": 1120,
+        "y": 1300,
+        "wires": [
+            [
+                "187689d4d364f82c"
+            ]
+        ]
+    },
+    {
+        "id": "8c6387f393db463b",
+        "type": "function",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "g": "1b9e17617663f7ba",
+        "name": "formatGPS_List",
+        "func": "var list = Array();\nmsg.payload.forEach(function(loc) {\n    list.push(String(loc.lat_long_pair));    \n});\n\nmsg.set(\"ui_update.options\",list);\n//msg.ui_update.options = list;\nmsg.payload = [];\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 760,
+        "y": 1300,
+        "wires": [
+            [
+                "d0a34d8ddd58f453",
+                "503784b93657285f"
+            ]
+        ]
+    },
+    {
+        "id": "79a285e876deed7f",
+        "type": "comment",
+        "z": "0515cbc0f5ed33ee",
+        "name": "Logging Switch",
+        "info": "",
+        "x": 720,
+        "y": 580,
+        "wires": []
+    },
+    {
+        "id": "f6d63ee5ef0b4a3d",
+        "type": "function",
+        "z": "0515cbc0f5ed33ee",
+        "g": "54494f4070c4790b",
+        "name": "parse",
+        "func": "if (global.get(\"logging\") == \"true\") {\n    if ((global.get(\"NodeDistanve\") != \"\")) {\n        var sql = `CALL insert_data_w_DIST(\n            '${msg.payload.deveui}', \n            '${msg.payload.datetime.replace(\"T\", \" \").replace(\"Z\", \"\")}', \n            ${parseFloat(msg.payload.freq)}, \n            ${parseFloat(msg.payload.lsnr)}, \n            ${parseFloat(msg.payload.rssi)}, \n            ${msg.payload.led}, \n            ${parseFloat(msg.payload.temp)}, \n            ${msg.payload.vbat}, \n            ${parseFloat(msg.payload.h2o)}, \n            ${msg.payload.n}, \n            ${msg.payload.p}, \n            ${msg.payload.k}, \n            ${parseFloat(msg.payload.ewpt)}, \n            ${global.get(\"NodeDistance\")}\n            );`;\n        msg.topic = sql;\n        msg.payload = \"\";\n        return msg;\n    }\n    else {\n        var sql = `CALL insert_data_wout_GPS('${msg.payload.deveui}', \n            '${msg.payload.datetime.replace(\"T\", \" \").replace(\"Z\", \"\")}', \n            ${parseFloat(msg.payload.freq)}, \n            ${parseFloat(msg.payload.lsnr)}, \n            ${parseFloat(msg.payload.rssi)}, \n            ${msg.payload.led}, \n            ${parseFloat(msg.payload.temp)}, \n            ${msg.payload.vbat}, \n            ${parseFloat(msg.payload.h2o)}, \n            ${msg.payload.n}, \n            ${msg.payload.p}, \n            ${msg.payload.k}, \n            ${parseFloat(msg.payload.ewpt)});`;\n        msg.topic = sql;\n        msg.payload = \"\";\n        return msg;\n    }\n}\nelse {\n    msg.topic = \"SELECT * FROM `data`;\";\n    msg.payload = \"\";\n    global.set(\"GatewayLatitude\", \"\");\n    global.set(\"GatewayLongitude\", \"\");\n    global.set(\"latitude\", \"\");\n    global.set(\"longitude\", \"\");\n    return msg;\n}",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 890,
+        "y": 700,
+        "wires": [
+            [
+                "1840521e4b739187",
+                "8fce67fe53c696de",
+                "acf57a8e1adcca14"
+            ]
+        ]
+    },
+    {
+        "id": "1840521e4b739187",
+        "type": "mysql",
+        "z": "0515cbc0f5ed33ee",
+        "g": "54494f4070c4790b",
+        "mydb": "7a5c7f264041b6e7",
+        "name": "lora_log",
+        "x": 1140,
+        "y": 700,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "8dfd191b4b2cf68f",
+        "type": "comment",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "name": "Disabled: Stores GPS Position",
+        "info": "",
+        "x": 760,
+        "y": 1460,
+        "wires": []
+    },
+    {
+        "id": "d822f74ba6750a6c",
+        "type": "ui-form",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "g": "fa022ea1a78ba040",
+        "name": "formGPS",
+        "group": "c2624d8e8cc35b05",
+        "label": "Gateway GPS",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "NodeLatitude",
+                "key": "NodeLatitude",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "NodeLongitude",
+                "key": "NodeLongitude",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "GatewayLatitude",
+                "key": "GatewayLatitude",
+                "type": "number",
+                "required": true,
+                "rows": null
+            },
+            {
+                "label": "GatewayLongitude",
+                "key": "GatewayLongitude",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "NodeLatitude": "",
+            "NodeLongitude": "",
+            "GatewayLatitude": "",
+            "GatewayLongitude": ""
+        },
+        "payload": "",
+        "submit": "Set GPS Positions",
+        "cancel": "Cancel",
+        "resetOnSubmit": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": true,
+        "className": "",
+        "passthru": false,
+        "dropdownOptions": [],
+        "x": 920,
+        "y": 1500,
+        "wires": [
+            [
+                "16088ac90e9fa8e5"
+            ]
+        ]
+    },
+    {
+        "id": "16088ac90e9fa8e5",
+        "type": "function",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "g": "fa022ea1a78ba040",
+        "name": "GPSSetter",
+        "func": "global.set(\"GatewayLatitude\", msg.payload.GatewayLatitude);\nglobal.set(\"GatewayLongitude\", msg.payload.GatewayLongitude);\nglobal.set(\"latitude\", msg.payload.NodeLatitude);\nglobal.set(\"longitude\", msg.payload.NodeLongitude);\nmsg.payload = \"GPS Set\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 1500,
+        "wires": [
+            [
+                "3893bc1a8169eb44"
+            ]
+        ]
+    },
+    {
+        "id": "6134bb11af528835",
+        "type": "mqtt in",
+        "z": "0515cbc0f5ed33ee",
+        "g": "54494f4070c4790b",
+        "name": "",
+        "topic": "data",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "8de7932d.d610d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 710,
+        "y": 700,
+        "wires": [
+            [
+                "f6d63ee5ef0b4a3d"
+            ]
+        ]
+    },
+    {
+        "id": "45311e4c27d50499",
+        "type": "comment",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "name": "Disabled: GPS Data Logger",
+        "info": "",
+        "x": 760,
+        "y": 1160,
+        "wires": []
+    },
+    {
+        "id": "20ba82e10e3c4df5",
+        "type": "debug",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "name": "lat-long",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1320,
+        "y": 1220,
+        "wires": []
+    },
+    {
+        "id": "503784b93657285f",
+        "type": "debug",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "name": "GPS_List",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1320,
+        "y": 1340,
+        "wires": []
+    },
+    {
+        "id": "71e5c84b775ebb94",
+        "type": "debug",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "name": "ViewSQL_Data",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1340,
+        "y": 1400,
+        "wires": []
+    },
+    {
+        "id": "1bc17ed6eb40d650",
+        "type": "ui_ui_control",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "g": "fa022ea1a78ba040",
+        "name": "GPSUI",
+        "events": "all",
+        "x": 720,
+        "y": 1500,
+        "wires": [
+            [
+                "d822f74ba6750a6c"
+            ]
+        ]
+    },
+    {
+        "id": "d02adfc598301c65",
+        "type": "ui-switch",
+        "z": "0515cbc0f5ed33ee",
+        "g": "54494f4070c4790b",
+        "name": "enable_logging",
+        "label": "Log Data",
+        "group": "c2624d8e8cc35b05",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "passthru": true,
+        "decouple": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "style": "",
+        "className": "",
+        "layout": "row-left",
+        "clickableArea": "label",
+        "onvalue": "true",
+        "onvalueType": "str",
+        "onicon": "",
+        "oncolor": "",
+        "offvalue": "false",
+        "offvalueType": "str",
+        "officon": "",
+        "offcolor": "",
+        "x": 900,
+        "y": 620,
+        "wires": [
+            [
+                "81f38da0d6f2d340"
+            ]
+        ]
+    },
+    {
+        "id": "81f38da0d6f2d340",
+        "type": "function",
+        "z": "0515cbc0f5ed33ee",
+        "g": "54494f4070c4790b",
+        "name": "setLoggingGlobal",
+        "func": "global.set(\"logging\", msg.payload);\n",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1110,
+        "y": 620,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "3de87a9953c96c98",
+        "type": "inject",
+        "z": "0515cbc0f5ed33ee",
+        "g": "54494f4070c4790b",
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "str",
+        "x": 730,
+        "y": 620,
+        "wires": [
+            [
+                "81f38da0d6f2d340"
+            ]
+        ]
+    },
+    {
+        "id": "5f5c3e2ef0a364d6",
+        "type": "inject",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "name": "",
+        "props": [
+            {
+                "p": "payload"
+            },
+            {
+                "p": "topic",
+                "vt": "str"
+            }
+        ],
+        "repeat": "",
+        "crontab": "",
+        "once": true,
+        "onceDelay": 0.1,
+        "topic": "",
+        "payload": "false",
+        "payloadType": "str",
+        "x": 550,
+        "y": 1220,
+        "wires": [
+            [
+                "568357f478a68647"
+            ]
+        ]
+    },
+    {
+        "id": "8fce67fe53c696de",
+        "type": "debug",
+        "z": "0515cbc0f5ed33ee",
+        "name": "parse",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1310,
+        "y": 660,
+        "wires": []
+    },
+    {
+        "id": "739aaba97ac51e93",
+        "type": "ui-notification",
+        "z": "0515cbc0f5ed33ee",
+        "g": "54494f4070c4790b",
+        "ui": "f235565bde4d4e25",
+        "position": "top right",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "13",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "allowConfirm": false,
+        "confirmText": "Confirm",
+        "raw": false,
+        "className": "",
+        "name": "",
+        "x": 1120,
+        "y": 760,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "acf57a8e1adcca14",
+        "type": "change",
+        "z": "0515cbc0f5ed33ee",
+        "g": "54494f4070c4790b",
+        "name": "",
+        "rules": [
+            {
+                "t": "set",
+                "p": "payload",
+                "pt": "msg",
+                "to": "topic",
+                "tot": "msg"
+            }
+        ],
+        "action": "",
+        "property": "",
+        "from": "",
+        "to": "",
+        "reg": false,
+        "x": 840,
+        "y": 760,
+        "wires": [
+            [
+                "739aaba97ac51e93"
+            ]
+        ]
+    },
+    {
+        "id": "6db05df203beab10",
+        "type": "debug",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "name": "obj",
+        "active": true,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "true",
+        "targetType": "full",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 1310,
+        "y": 1280,
+        "wires": []
+    },
+    {
+        "id": "3893bc1a8169eb44",
+        "type": "ui-notification",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "g": "fa022ea1a78ba040",
+        "ui": "f235565bde4d4e25",
+        "position": "top right",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "13",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "allowConfirm": false,
+        "confirmText": "Confirm",
+        "raw": false,
+        "className": "",
+        "name": "GPS Set",
+        "x": 1300,
+        "y": 1500,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "d331469a851ef5ee",
+        "type": "comment",
+        "z": "0515cbc0f5ed33ee",
+        "name": "Store Distance w/ Tx Data",
+        "info": "",
+        "x": 750,
+        "y": 840,
+        "wires": []
+    },
+    {
+        "id": "258205eb98e4f501",
+        "type": "ui-form",
+        "z": "0515cbc0f5ed33ee",
+        "g": "3073fa57a6bb9484",
+        "name": "formDIST",
+        "group": "c2624d8e8cc35b05",
+        "label": "Node-Gateway Distance",
+        "order": 0,
+        "width": 0,
+        "height": 0,
+        "options": [
+            {
+                "label": "NodeDistance",
+                "key": "NodeDistance",
+                "type": "number",
+                "required": true,
+                "rows": null
+            }
+        ],
+        "formValue": {
+            "NodeDistance": ""
+        },
+        "payload": "",
+        "submit": "Set Distance",
+        "cancel": "Cancel",
+        "resetOnSubmit": false,
+        "topic": "topic",
+        "topicType": "msg",
+        "splitLayout": true,
+        "className": "",
+        "passthru": false,
+        "dropdownOptions": [],
+        "x": 920,
+        "y": 880,
+        "wires": [
+            [
+                "0b839729bfea6a0b"
+            ]
+        ]
+    },
+    {
+        "id": "0b839729bfea6a0b",
+        "type": "function",
+        "z": "0515cbc0f5ed33ee",
+        "g": "3073fa57a6bb9484",
+        "name": "DISTSetter",
+        "func": "global.set(\"NodeDistance\", msg.payload.NodeDistance);\nmsg.payload = \"Distance Set\";\nreturn msg;",
+        "outputs": 1,
+        "timeout": 0,
+        "noerr": 0,
+        "initialize": "",
+        "finalize": "",
+        "libs": [],
+        "x": 1130,
+        "y": 880,
+        "wires": [
+            [
+                "f2741128db8bbe5d"
+            ]
+        ]
+    },
+    {
+        "id": "70f00b416f8e51c4",
+        "type": "ui_ui_control",
+        "z": "0515cbc0f5ed33ee",
+        "g": "3073fa57a6bb9484",
+        "name": "DIST",
+        "events": "all",
+        "x": 710,
+        "y": 880,
+        "wires": [
+            [
+                "258205eb98e4f501"
+            ]
+        ]
+    },
+    {
+        "id": "f2741128db8bbe5d",
+        "type": "ui-notification",
+        "z": "0515cbc0f5ed33ee",
+        "g": "3073fa57a6bb9484",
+        "ui": "f235565bde4d4e25",
+        "position": "top right",
+        "colorDefault": true,
+        "color": "#000000",
+        "displayTime": "13",
+        "showCountdown": true,
+        "outputs": 1,
+        "allowDismiss": true,
+        "dismissText": "Close",
+        "allowConfirm": false,
+        "confirmText": "Confirm",
+        "raw": false,
+        "className": "",
+        "name": "Distance Set",
+        "x": 1310,
+        "y": 880,
+        "wires": [
+            []
+        ]
+    },
+    {
+        "id": "558115f79a5c443f",
+        "type": "mqtt in",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "g": "caa3e837dddef227",
+        "name": "",
+        "topic": "rssi",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "8de7932d.d610d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 710,
+        "y": 1020,
+        "wires": [
+            [
+                "eaaf632321a65308"
+            ]
+        ]
+    },
+    {
+        "id": "9015e96b992ca5f3",
+        "type": "mqtt in",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "g": "caa3e837dddef227",
+        "name": "",
+        "topic": "data",
+        "qos": "2",
+        "datatype": "auto-detect",
+        "broker": "8de7932d.d610d",
+        "nl": false,
+        "rap": true,
+        "rh": 0,
+        "inputs": 0,
+        "x": 710,
+        "y": 1080,
+        "wires": [
+            [
+                "9b258cfe554c5043"
+            ]
+        ]
+    },
+    {
+        "id": "eaaf632321a65308",
+        "type": "debug",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "g": "caa3e837dddef227",
+        "name": "rssi",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 1020,
+        "wires": []
+    },
+    {
+        "id": "9b258cfe554c5043",
+        "type": "debug",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "g": "caa3e837dddef227",
+        "name": "data",
+        "active": false,
+        "tosidebar": true,
+        "console": false,
+        "tostatus": false,
+        "complete": "payload",
+        "targetType": "msg",
+        "statusVal": "",
+        "statusType": "auto",
+        "x": 890,
+        "y": 1080,
+        "wires": []
+    },
+    {
+        "id": "1238d77683157ae6",
+        "type": "comment",
+        "z": "0515cbc0f5ed33ee",
+        "d": true,
+        "name": "Disabled: for testing",
+        "info": "",
+        "x": 730,
+        "y": 960,
+        "wires": []
+    }
+]

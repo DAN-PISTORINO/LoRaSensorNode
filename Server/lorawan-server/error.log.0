@@ -1,0 +1,134 @@
+2025-03-13 10:15:44.146 [error] <0.1017.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1017.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56
+2025-03-13 10:15:44.157 [error] <0.1017.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1017.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56
+2025-03-13 10:15:44.157 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1017.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:16:04.200 [error] <0.1045.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1045.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56
+2025-03-13 10:16:04.200 [error] <0.1045.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1045.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56
+2025-03-13 10:16:04.200 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1045.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:16:36.018 [error] <0.1056.0> device 0080E115061DA501 second_join
+2025-03-13 10:16:46.029 [error] <0.1061.0> device 0080E115061DA501 second_join
+2025-03-13 10:16:56.049 [error] <0.1064.0> device 0080E115061DA501 second_join
+2025-03-13 10:17:06.030 [error] <0.1068.0> device 0080E115061DA501 second_join
+2025-03-13 10:17:16.039 [error] <0.1071.0> device 0080E115061DA501 second_join
+2025-03-13 10:17:26.283 [error] <0.1076.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1076.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.175, {9023,2}, {9030,16}) line 56
+2025-03-13 10:17:26.283 [error] <0.1076.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1076.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.175, {9023,2}, {9030,16}) line 56
+2025-03-13 10:17:26.283 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1076.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.175, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:17:46.259 [error] <0.1085.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1085.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56
+2025-03-13 10:17:46.259 [error] <0.1085.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1085.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56
+2025-03-13 10:17:46.259 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1085.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:18:06.257 [error] <0.1098.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1098.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56
+2025-03-13 10:18:06.257 [error] <0.1098.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1098.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56
+2025-03-13 10:18:06.257 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1098.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:18:26.293 [error] <0.1105.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1105.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56
+2025-03-13 10:18:26.293 [error] <0.1105.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1105.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56
+2025-03-13 10:18:26.293 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1105.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:18:46.279 [error] <0.1114.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1114.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56
+2025-03-13 10:18:46.279 [error] <0.1114.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1114.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56
+2025-03-13 10:18:46.280 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1114.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:19:06.344 [error] <0.1139.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1139.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56
+2025-03-13 10:19:06.344 [error] <0.1139.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1139.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56
+2025-03-13 10:19:06.344 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1139.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:19:26.303 [error] <0.1148.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1148.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56
+2025-03-13 10:19:26.303 [error] <0.1148.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1148.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56
+2025-03-13 10:19:26.303 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1148.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:19:46.316 [error] <0.1155.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1155.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.175, {9023,2}, {9030,16}) line 56
+2025-03-13 10:19:46.316 [error] <0.1155.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1155.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.175, {9023,2}, {9030,16}) line 56
+2025-03-13 10:19:46.316 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1155.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.175, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:20:06.345 [error] <0.1166.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1166.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56
+2025-03-13 10:20:06.345 [error] <0.1166.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1166.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56
+2025-03-13 10:20:06.345 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1166.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:20:26.305 [error] <0.1177.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1177.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56
+2025-03-13 10:20:26.305 [error] <0.1177.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1177.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56
+2025-03-13 10:20:26.305 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1177.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:20:46.311 [error] <0.1186.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1186.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.175, {9023,2}, {9030,16}) line 56
+2025-03-13 10:20:46.311 [error] <0.1186.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1186.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.175, {9023,2}, {9030,16}) line 56
+2025-03-13 10:20:46.312 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1186.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.175, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:21:19.953 [error] <0.1201.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1201.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56
+2025-03-13 10:21:19.953 [error] <0.1201.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1201.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56
+2025-03-13 10:21:19.953 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1201.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:21:39.951 [error] <0.1208.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1208.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56
+2025-03-13 10:21:39.951 [error] <0.1208.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1208.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56
+2025-03-13 10:21:39.951 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1208.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.575, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:21:59.982 [error] <0.1234.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1234.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.175, {9023,2}, {9030,16}) line 56
+2025-03-13 10:21:59.983 [error] <0.1234.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1234.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.175, {9023,2}, {9030,16}) line 56
+2025-03-13 10:21:59.983 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1234.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.175, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:22:19.977 [error] <0.1243.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1243.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56
+2025-03-13 10:22:19.977 [error] <0.1243.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1243.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56
+2025-03-13 10:22:19.977 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1243.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:22:39.996 [error] <0.1252.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1252.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.175, {9023,2}, {9030,16}) line 56
+2025-03-13 10:22:39.996 [error] <0.1252.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1252.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.175, {9023,2}, {9030,16}) line 56
+2025-03-13 10:22:39.996 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1252.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.175, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:22:59.998 [error] <0.1264.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1264.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56
+2025-03-13 10:22:59.998 [error] <0.1264.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1264.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56
+2025-03-13 10:22:59.998 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1264.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:23:20.013 [error] <0.1271.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1271.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56
+2025-03-13 10:23:20.013 [error] <0.1271.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1271.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56
+2025-03-13 10:23:20.013 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1271.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:24:00.300 [error] <0.1285.0> device 0080E115061DA501 second_join
+2025-03-13 10:24:20.495 [error] <0.1293.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1293.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.175, {9023,2}, {9030,16}) line 56
+2025-03-13 10:24:20.495 [error] <0.1293.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1293.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.175, {9023,2}, {9030,16}) line 56
+2025-03-13 10:24:20.495 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1293.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.175, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-03-13 10:24:40.533 [error] <0.1300.0>@lorawan_mac_region:f2ch:56 gen_statem <0.1300.0> in state join terminated with reason: no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56
+2025-03-13 10:24:40.533 [error] <0.1300.0>@lorawan_mac_region:f2ch:56 CRASH REPORT Process <0.1300.0> with 0 neighbours crashed with reason: no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56
+2025-03-13 10:24:40.533 [error] <0.324.0>@lorawan_mac_region:f2ch:56 Supervisor lorawan_handler_sup had child handler started with lorawan_handler:start_link() at <0.1300.0> exit with reason no function clause matching lorawan_mac_region:f2ch(433.375, {9023,2}, {9030,16}) line 56 in context child_terminated
+2025-04-08 10:56:50.732 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:56:55.779 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:57:00.831 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:57:05.911 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:57:10.961 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:57:16.011 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:57:21.061 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:57:26.111 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:57:31.162 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:57:36.212 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:57:41.262 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:57:46.312 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:57:51.363 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:57:56.414 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:58:01.465 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:58:06.515 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:58:11.565 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:58:16.617 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:58:21.666 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:58:26.718 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:58:31.768 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:58:36.819 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:58:41.870 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:58:46.921 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:58:51.971 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:58:57.021 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:59:02.072 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:59:07.123 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:59:12.174 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 10:59:17.225 [error] <0.387.0> gateway 0080E1FFFF0155DC unknown_mac
+2025-04-08 12:05:06.320 [error] <0.1406.0> device 0080E115061BFCFB second_join
+2025-04-08 12:20:25.855 [error] <0.1667.0> device 0080E115061BFCFB second_join
+2025-04-08 12:20:35.837 [error] <0.1670.0> device 0080E115061BFCFB second_join
+2025-04-08 12:47:02.408 [error] <0.2057.0> device 0080E115061BFCFB second_join
+2025-04-08 12:47:10.141 [error] <0.2059.0> device 0080E115061BFCFB second_join
+2025-04-08 12:47:17.863 [error] <0.2062.0> device 0080E115061BFCFB second_join
+2025-04-08 12:57:40.418 [error] <0.2306.0> device 0080E115061BFCFB second_join
+2025-04-08 12:57:48.186 [error] <0.2312.0> device 0080E115061BFCFB second_join
+2025-04-08 12:57:55.918 [error] <0.2316.0> device 0080E115061BFCFB second_join
+2025-04-08 12:58:03.639 [error] <0.2322.0> device 0080E115061BFCFB second_join
+2025-04-08 14:57:32.461 [error] <0.3861.0> device 0080E115061BFCFB second_join
+2025-04-08 14:57:40.184 [error] <0.3864.0> device 0080E115061BFCFB second_join
+2025-04-08 14:57:47.906 [error] <0.3868.0> device 0080E115061BFCFB second_join
+2025-04-08 14:57:55.627 [error] <0.3870.0> device 0080E115061BFCFB second_join
+2025-04-08 14:58:03.348 [error] <0.3873.0> device 0080E115061BFCFB second_join
+2025-04-08 15:52:28.456 [error] <0.1909.0>@lorawan_connector_mqtt:handle_info:241 gen_server <0.1909.0> terminated with reason: no match of right hand value false in lorawan_connector_mqtt:handle_info/2 line 241
+2025-04-08 15:52:28.461 [error] <0.1909.0>@lorawan_connector_mqtt:handle_info:241 CRASH REPORT Process <0.1909.0> with 0 neighbours crashed with reason: no match of right hand value false in lorawan_connector_mqtt:handle_info/2 line 241
+2025-04-08 15:52:28.461 [error] <0.392.0>@lorawan_connector_mqtt:handle_info:241 Supervisor lorawan_connector_sup had child {mqtt,<<"NodeRedConn">>} started with lorawan_connector_mqtt:start_link({connector,<<"NodeRedConn">>,<<"NodeRed">>,<<"json">>,<<"mqtt://localhost:1883">>,undefined,<<"dat...">>,...}) at <0.1909.0> exit with reason no match of right hand value false in lorawan_connector_mqtt:handle_info/2 line 241 in context child_terminated
+2025-04-08 15:59:56.252 [error] <0.5010.0> node 061BFCFB bad_mic
+2025-04-08 16:00:25.009 [error] <0.5040.0> node 061BFCFB bad_mic
+2025-04-08 16:00:53.742 [error] <0.5062.0> node 061BFCFB bad_mic
+2025-04-08 16:01:22.500 [error] <0.5063.0> node 061BFCFB bad_mic
+2025-04-08 16:01:51.232 [error] <0.5096.0> node 061BFCFB bad_mic
+2025-04-08 16:02:19.990 [error] <0.5097.0> node 061BFCFB bad_mic
+2025-04-08 16:02:55.112 [error] <0.5113.0> device 0080E115061BFCFB second_join
+2025-04-08 19:13:04.796 [error] <0.7621.0> device 0080E115061BFCFB second_join
+2025-04-08 19:13:12.518 [error] <0.7622.0> device 0080E115061BFCFB second_join
+2025-04-08 19:13:20.239 [error] <0.7623.0> device 0080E115061BFCFB second_join
+2025-04-08 20:14:42.770 [error] <0.8294.0> device 0080E115061BFCFB second_join
+2025-04-08 20:29:46.211 [error] <0.8398.0> device 0080E115061BFCFB second_join
+2025-04-08 20:29:53.944 [error] <0.8402.0> device 0080E115061BFCFB second_join
+2025-04-08 20:30:01.666 [error] <0.8403.0> device 0080E115061BFCFB second_join

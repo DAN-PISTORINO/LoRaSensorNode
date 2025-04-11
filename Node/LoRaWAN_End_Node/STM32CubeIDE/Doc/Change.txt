@@ -1,0 +1,220 @@
+This document outlines the changes implemented.
+
+[./Application/User/Core]
+	[adc_if.c]
+		/**
+		 * @brief This function reads the H2O sensor through the ADC.
+		 * @param ADC channel 3
+		 * @return adc measured level value
+		 */
+		uint16_t SYS_GetH2OLevel(void)
+		{
+		    /* USER CODE BEGIN SYS_GetH2OLevel_1 */
+			const float SCALE = 1.4669f;	// Ladder Channel 1 (left)
+		    const float CORRECTION = 50.0f;
+			/* USER CODE END SYS_GetH2OLevel_1 */
+		    float H2OLevelmV = 0;
+		    uint32_t measuredLevel = 0;
+		
+		    measuredLevel = ADC_ReadChannels(ADC_CHANNEL_3);
+		
+		    if (measuredLevel == 0)
+		    {
+		    	H2OLevelmV = 0.0f;
+		    }
+		    else
+		    {
+		      if ((uint32_t)*VREFINT_CAL_ADDR != (uint32_t)0xFFFFU)
+		      {
+		        /* Device with Reference voltage calibrated in production:
+		           use device optimized parameters */
+		    	  H2OLevelmV = ((float)measuredLevel>=CORRECTION)
+		    					  ? (float)measuredLevel-CORRECTION
+								  : 0.0f; 												//__LL_ADC_CALC_VREFANALOG_VOLTAGE(measuredLevel,
+		    	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  	  //                    ADC_RESOLUTION_12B);
+		      }
+		      else
+		      {
+		        /* Device with Reference voltage not calibrated in production:
+		           use generic parameters */
+		    	  H2OLevelmV = ((float)measuredLevel>=CORRECTION)
+		    			  ? (float)measuredLevel-CORRECTION
+						  : 0.0f; 													//(VREFINT_CAL_VREF) / measuredLevel;
+		      }
+		    }
+		  float x = H2OLevelmV;
+		
+		  H2OLevelmV -= 0.1991*x - 6.046;
+		
+		  return (uint16_t)(H2OLevelmV);	// *SCALE);
+		  /* USER CODE BEGIN SYS_GetH2OLevel_2 */
+		
+		  /* USER CODE END SYS_GetH2OLevel_2 */
+		}
+		/**
+		 * @brief This function reads the EWPT voltage level through the ADC.
+		 * @param ADC channel 4
+		 * @return adc measured level value
+		 */
+		uint16_t SYS_GetEWPTLevel(void)
+		{
+		    /* USER CODE BEGIN SYS_GetEWPTLevel_1 */
+			const float SCALE = 1.4694f; // Ladder Channel 2 (right)
+		    const float CORRECTION = 50.0f;
+			/* USER CODE END SYS_GetEWPTLevel_1 */
+		    float EWPTLevelmV = 0.0f;
+		    uint32_t measuredLevel = 0;
+		
+		    measuredLevel = ADC_ReadChannels(ADC_CHANNEL_4);
+		
+		    if (measuredLevel == 0)
+		    {
+		    	EWPTLevelmV = 0.0f;
+		    }
+		    else
+		    {
+		      if ((uint32_t)*VREFINT_CAL_ADDR != (uint32_t)0xFFFFU)
+		      {
+		        /* Device with Reference voltage calibrated in production:
+		           use device optimized parameters */
+		    	  EWPTLevelmV = ((float)measuredLevel >= CORRECTION)
+		    			  ? (float)measuredLevel-CORRECTION
+						  : 0.0f; 													//__LL_ADC_CALC_VREFANALOG_VOLTAGE(measuredLevel,
+		                                       	   	   	   	   	   	   	   	   	   	   //                   ADC_RESOLUTION_12B);
+		      }
+		      else
+		      {
+		        /* Device with Reference voltage not calibrated in production:
+		           use generic parameters */
+		    	  EWPTLevelmV = (float)measuredLevel >= CORRECTION
+		    			  	  	  ? (float)measuredLevel-CORRECTION
+								  : 0.0f; 											//(VREFINT_CAL_VREF) / measuredLevel;
+		      }
+		    }
+		
+		
+		    float x = EWPTLevelmV;
+		
+		    EWPTLevelmV -= 0.1991*x - 6.046;
+		  return (uint16_t)(EWPTLevelmV);	//DP: *SCALE);
+	[adc.c]
+	[sys_app.c]
+	[sys_sensors.c]
+		
+	[usart_if.c]
+		void SYS_SensorPower(bool state);
+		void SYS_SensorPower(bool state) {
+			if(state) {
+				HAL_GPIO_WritePin(GPIOC, 0, GPIO_PIN_SET);
+			}
+			else {
+				HAL_GPIO_WritePin(GPIOC, 0, GPIO_PIN_RESET);
+			}
+		}
+		
+		void charArrayToUint8(const char* cA, uint8_t* uA, size_t len) {
+			const char *cPtr = cA;
+			uint8_t *uPtr = uA;
+			while (len--) {
+				*uPtr++=(uint8_t)*cPtr++;
+			}
+		}
+		
+		/**
+		 * NPK Inquiry Codes and Data Masks
+		 */
+		uint8_t REQUEST_NPK[]={0x01, 0x03, 0x00, 0x1E, 0x00, 0x03, 0x34, 0x0D};
+		uint8_t REQUEST_N[]={0x01, 0x03, 0x00, 0x1E, 0x00, 0x01, 0xB5, 0xCC};
+		uint8_t REQUEST_P[]={0x01, 0x03, 0x00, 0x1F, 0x00, 0x01, 0x4E, 0x0C};
+		uint8_t REQUEST_K[]={0x01, 0x03, 0x00, 0x20, 0x00, 0x01, 0x85, 0xC0};
+		/**
+		 * @brief Gets the Nitrogen data from the NPK sensor
+		 * @return Returns the Nitrogen value in mg/kg.
+		 */
+		uint16_t SYS_GetN(void) {
+			char in[8];
+		
+			// Request value from sensor
+			HAL_UART_Transmit(&huart1, REQUEST_N, strlen(REQUEST_N), 10);
+			HAL_Delay(1000);
+			// Receive data from UART
+			HAL_UART_Receive(&huart1, in, 8, 1000);
+			char out[2]= {in[3], in[4]};
+			return (uint16_t) strtoul(out, (char**)0, 16);//(16*in[6]+1*in[7]);//atoi(val); // converts string to uint and returns
+		}
+		/**
+		 * @brief Gets the Phosphorus data from the NPK sensor
+		 * @return Returns the Phosphorus value in mg/kg.
+		 */
+		uint16_t SYS_GetP(void) {
+			char in[8];
+		
+			// Request value from sensor
+			HAL_UART_Transmit(&huart1, REQUEST_P, strlen(REQUEST_P), 10);
+			HAL_Delay(1000);
+			// Receive data from UART
+			HAL_UART_Receive(&huart1, (uint8_t *)in, 8, 1000);
+			char out[2]= {in[3], in[4]};
+			return (uint16_t) strtoul(out, (char**)0, 16);//(16*in[6]+1*in[7]);//atoi(val); // converts string to uint and returns
+		}
+		/**
+		 * @brief Gets all 3 NPK values from the NPK sensor
+		 * @return void
+		 * @param Pointers of type uint16_t*.
+		 */
+		void SYS_GetNPK(uint16_t* N, uint16_t* P, uint16_t* K) {
+			const uint8_t CYCLE_LIMIT = 5;
+			uint8_t in[11];
+			uint8_t received = 0;
+		
+			*N=0;
+			*P=0;
+			*K=0;
+		
+			while (received < CYCLE_LIMIT) {
+				// Request value from sensor
+				HAL_UART_Transmit(&huart1, REQUEST_NPK, strlen(REQUEST_NPK), 1000);
+				HAL_Delay(1000);
+				// Receive data from UART
+				HAL_UART_Receive(&huart1, in, 11, 1000);
+				if (in[10]!=0x53) {
+					received++;
+				}
+				else {
+					received = CYCLE_LIMIT + 1;
+					*N = (uint16_t)in[3] | ((uint16_t)in[4]<<8);
+					*P = (uint16_t)in[5] | ((uint16_t)in[6]<<8);
+					*K = (uint16_t)in[7] | ((uint16_t)in[8]<<8);
+				}
+				if (received == CYCLE_LIMIT) {
+					*N = 1;
+					*P = 2;
+					*K = 3;
+				}
+			}
+		}
+		
+		/**
+		 * @brief Gets the Potassium data from the NPK sensor
+		 * @return Returns the Potassium value in mg/kg.
+		 */
+		uint16_t SYS_GetK(void) {
+			char in[8];
+		
+			// Request value from sensor
+			HAL_UART_Transmit(&huart1, (uint8_t *)REQUEST_K, strlen(REQUEST_K), 10);
+			HAL_Delay(1000);
+			// Receive data from UART
+			HAL_UART_Receive(&huart1, (uint8_t *)in, 8, 1000);
+			char out[2]= {in[3], in[4]};
+			return (uint16_t)(strtoul(out, (char**)0, 16));//(16*in[6]+1*in[7]);//atoi(val); // converts string to uint and returns
+		}
+		/* USER CODE END PrFD */
+
+
+	[usart.c]
+		USART communication.
+[./Application/User/LoRaWAN/App]
+	[lora_app.c]
+		Functions for transmitting lora signals,
+		and logging signal parameters.

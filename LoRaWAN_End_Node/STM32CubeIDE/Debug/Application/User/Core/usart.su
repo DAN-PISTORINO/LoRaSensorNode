@@ -1,4 +1,0 @@
-C:/ST/Full_Node/LoRaWAN_End_Node/Core/Src/usart.c:36:6:MX_LPUART1_UART_Init	8	static
-C:/ST/Full_Node/LoRaWAN_End_Node/Core/Src/usart.c:80:6:MX_USART1_UART_Init	8	static
-C:/ST/Full_Node/LoRaWAN_End_Node/Core/Src/usart.c:123:6:HAL_UART_MspInit	112	static
-C:/ST/Full_Node/LoRaWAN_End_Node/Core/Src/usart.c:294:6:HAL_UART_MspDeInit	8	static
